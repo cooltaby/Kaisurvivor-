@@ -3,7 +3,7 @@
   "name": "My first Vanilla App for KaiOS",
   "description": "Simple example of a to-do list",
   "type": "web",
-  "launch_path": "/cooltaby.github.io/Kaisurvivor-/index.html",
+  "launch_path": "/index.html",
   "icons": {
     "56": "/assets/icons/kaios_56.png",
     "112": "/assets/icons/kaios_112.png",

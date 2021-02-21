@@ -4,6 +4,12 @@
   "description": "KaiOS C2 Sample",
   "type": "web",
   "launch_path": "/index.html",
+"icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "114": "icon-114.png",
+    "128": "icon-128.png"
+  },
   "developer": {
     "name": "KaiOS Tehnologies",
     "url": "http://www.kaiostech.com"

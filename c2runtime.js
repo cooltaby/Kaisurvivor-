@@ -27720,6 +27720,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.acts.Vibrate,
 	cr.behaviors.Bullet.prototype.acts.SetSpeed,
 	cr.plugins_.Keyboard.prototype.cnds.OnKeyCode,
+	cr.plugins_.Keyboard.prototype.cnds.OnKey,
+	cr.plugins_.Keyboard.prototype.cnds.IsKeyCodeDown,
 	cr.plugins_.Sprite.prototype.cnds.IsVisible,
 	cr.plugins_.TiledBg.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.SetTimescale,
@@ -27743,6 +27745,5 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.cnds.OnBackButton,
 	cr.plugins_.Browser.prototype.acts.Close,
 	cr.behaviors.Pin.prototype.acts.Pin,
-	cr.plugins_.Sprite.prototype.acts.SetPos,
-	cr.plugins_.Keyboard.prototype.cnds.IsKeyCodeDown
+	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};

@@ -27720,7 +27720,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.acts.Vibrate,
 	cr.behaviors.Bullet.prototype.acts.SetSpeed,
 	cr.plugins_.Keyboard.prototype.cnds.OnKeyCode,
-	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.plugins_.Sprite.prototype.cnds.IsVisible,
 	cr.plugins_.TiledBg.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.SetTimescale,

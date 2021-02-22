@@ -27636,14 +27636,14 @@ cr.behaviors.jumpthru = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
-	cr.plugins_.Audio,
 	cr.plugins_.Browser,
-	cr.plugins_.Particles,
+	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
+	cr.plugins_.Particles,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.WebStorage,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.Touch,
 	cr.plugins_.ValerypopoffJSPlugin,
 	cr.behaviors.Platform,
@@ -27720,6 +27720,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.acts.Vibrate,
 	cr.behaviors.Bullet.prototype.acts.SetSpeed,
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+	cr.plugins_.Keyboard.prototype.cnds.IsKeyCodeDown,
 	cr.plugins_.Keyboard.prototype.cnds.OnKeyCode,
 	cr.plugins_.Sprite.prototype.cnds.IsVisible,
 	cr.plugins_.TiledBg.prototype.acts.SetVisible,
@@ -27744,6 +27745,5 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.cnds.OnBackButton,
 	cr.plugins_.Browser.prototype.acts.Close,
 	cr.behaviors.Pin.prototype.acts.Pin,
-	cr.plugins_.Sprite.prototype.acts.SetPos,
-	cr.plugins_.Keyboard.prototype.cnds.IsKeyCodeDown
+	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};
